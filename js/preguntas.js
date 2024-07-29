@@ -343,7 +343,7 @@ function showStoredNames() {
 
         storedNames.forEach(name => {
             const answerCell = document.createElement('div');
-            answerCell.className = "py-2 flex items-center justify-start";
+            answerCell.className = "py-1 flex items-center justify-start";
             answerCell.innerHTML = `<p>Nombre: ${name}</p>`;
             container.appendChild(answerCell);
         });
